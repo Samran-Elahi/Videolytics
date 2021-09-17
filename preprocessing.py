@@ -38,16 +38,17 @@ class video_processing():
             normalize (Bool) : will convert the numpy frames into 0 to 1 range.
 
         Returns: 
-             returns a 5 dimension numpy array which contains multiple bags/batches hold multiple video frames    
+             returns a 4 dimension numpy array which contains multiple bags/batches hold multiple video frames    
 
         """
         # load all the videos in a directory 
         vid_data = []
+
         segment = segment - 1 
         video_path = os.path.join(path, os.listdir(path)[0])
         e1 = ext.Extractor(video_path, segment, frame_rate)
         data = e1.load_vid_data(width,height,normalize)
-        for i in tqdm (range (1, 50)):
+        for i in tqdm (range (1,len(os.listdir(path)))):
             video_path = os.path.join(path, os.listdir(path)[i])
             # print("\nloading video number : ", i )
             # print("path = ", video_path)
