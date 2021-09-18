@@ -4,7 +4,7 @@ turned towards making this library.
 
 ## Converting video frames into numpy array( for a single video ) 
  ``` python 
- from preprocessing import video_processing
+ from video_preprocessing import video_processing
 
  video_converter = video_processing()
 
