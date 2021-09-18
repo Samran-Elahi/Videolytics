@@ -1,4 +1,4 @@
-# Video-to-Frames-Segment
+# Videplytics
 This is Open Source Project I started because I could not find code for extracting video frames at fixed fps and segment that did not have some sort of memory issue, hence I
 turned towards making this library. 
 
