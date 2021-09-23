@@ -4,9 +4,9 @@ turned towards making this library.
 
 ## Converting video frames into numpy array( for a single video ) 
  ``` python 
- from video_preprocessing import video_processing
+ from videolytics import video_preprocessing
 
- video_converter = video_processing()
+ video_converter = video_preprocessing.video_processing()
 
  filename = "full path to your video"
 
@@ -18,9 +18,9 @@ turned towards making this library.
 
 ## Converting video frames into numpy array( for an entire directory of video ) 
  ``` python 
- from video_preprocessing import video_processing
+ from videolytics import video_preprocessing
 
- video_converter = video_processing()
+ video_converter = video_preprocessing.video_processing()
 
  filename = "full path to your directory"
 
@@ -28,6 +28,9 @@ turned towards making this library.
 
 
 ```
+## Install via pip  
+pip install videolytics
+
 
 ## Further features:
 More features are being considered and will be added shortly. Moreover, I will also create a pip package soon. 
