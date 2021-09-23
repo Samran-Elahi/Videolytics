@@ -10,7 +10,7 @@ turned towards making this library.
 
  filename = "full path to your video"
 
- Converted_frames = video_converter.load_video(filename,frame_rate = 30, segment=60, normalization = False)
+ Converted_frames = video_converter.load_video(filename,frame_rate = 30, segment=60, normalize = False)
 
 
 ```
@@ -24,7 +24,7 @@ turned towards making this library.
 
  filename = "full path to your directory"
 
- Converted_frames = video_converter.load_video_from_dir(filename,frame_rate = 30, segment=60, normalization = False)
+ Converted_frames = video_converter.load_video_from_dir(filename,frame_rate = 30, segment=60, normalize = False)
 
 
 ```
